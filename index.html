@@ -16,8 +16,8 @@
 
     <!-- Header Part -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container bg-light p-3">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container p-3">
 
 
                 <a class="navbar-brand" href="#">
@@ -35,13 +35,13 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Shoes</a>
+                            <a class="nav-link" aria-current="page" href="#shoe">Shoes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Backpack</a>
+                            <a class="nav-link" aria-current="page" href="#backpack">Backpack</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Subscribe</a>
+                            <a class="nav-link" aria-current="page" href="#subscribe">Subscribe</a>
                         </li>
 
                     </ul>
@@ -56,7 +56,7 @@
     <main>
 
         <!-- Banner Part -->
-        <section class="container mt-5 rounded" style="background-color: #FEEAE9;">
+        <section class="container rounded" style="background-color: #FEEAE9; margin-top: 150px;">
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
 
@@ -152,7 +152,7 @@
 
 
         <!-- Shoes Part -->
-        <section class="container mt-5">
+        <section class="container mt-5" id="shoe">
             <div class="shoe">
 
                 <div class="product-title">
@@ -222,7 +222,7 @@
 
 
         <!-- Backpack Part -->
-        <section class="container mt-5">
+        <section class="container my-5" id="backpack">
             <div class="backpack">
 
                 <div class="product-title">
@@ -290,7 +290,30 @@
             </div>
         </section>
 
+
+        <!-- Subsribe Part -->
+        <section class="container my-5 rounded-3 d-flex justify-content-center" id="subscribe"
+            style="background-color: #FEEAE9;">
+
+            <div class="subscribe p-5 ">
+                <h1>LET'S STAY IN TOUCH</h1>
+                <p>Get updates on sales, specials and more </p>
+
+                <div>
+                    <input type="text" name="" placeholder="Your Email" id="">
+                    <br>
+                    <div class="btn btn-primary">SUBMIT</div>
+                </div>
+            </div>
+        </section>
+
     </main>
+
+    <!-- Footer Part -->
+
+    <section class="mt-5 d-flex justify-content-center">
+        <small>&copy2020. Panda Commerce. All rights reserved. Sofia, Bulgaria.</small>
+    </section>
 
 
     <script src="js/bootstrap.bundle.min.js"></script>
